@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Success</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: #fff;
+      padding: 2.5rem 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+    .checkmark { font-size: 3rem; margin-bottom: 1rem; }
+    h2 { color: #16a34a; margin-bottom: 0.75rem; }
+    p { color: #555; margin-bottom: 1.5rem; }
+    a {
+      display: inline-block;
+      padding: 0.6rem 1.5rem;
+      background: #4f46e5;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    a:hover { background: #4338ca; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="checkmark">&#10003;</div>
+    <h2>Data Submitted Successfully</h2>
+    <p>Your information has been saved to the database.</p>
+    <a href="/">Submit Another</a>
+  </div>
+</body>
+</html>
